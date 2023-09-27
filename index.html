@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjana VK</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        img{
+            width: 25%;
+            height: 250px;
+            border-radius: 25px;
+            box-shadow: 15px 20px 26px rgb(58 39 39 / 94%);
+        }
+        img:not(:first-child){
+            margin-left: -5%;
+        }
+        img:nth-child(1){
+            z-index: 4;
+        }
+        img:nth-child(2){
+            z-index: 3;
+        }
+        img:nth-child(3){
+            z-index: 2;
+        }
+        img:nth-child(4){
+            z-index: 1;
+        }
+        section#course-offered{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            padding: 50px 5%;                      
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <section id="course-offered" class="container">
+        <img src="assets/2.jpg">
+        <img src="assets/1.jpg">
+        <img src="assets/3.jpg">
+        <img src="assets/4.jpg">
+    </section>
+</body>
+</html>
